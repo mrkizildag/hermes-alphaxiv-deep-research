@@ -1,0 +1,7 @@
+name: hermes-alphaxiv-deep-research
+version: 0.1.0
+description: "Hermes skill pack for citation-grounded literature review centered on AlphaXiv (MCP, public API, and browser fallbacks), ending in a transparent paper-by-paper relevance catalog."
+hermes_requires: ">=0.16.0"
+author: "mrkizildag"
+license: "MIT"
+env_requires: []

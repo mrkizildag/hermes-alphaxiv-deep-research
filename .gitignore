@@ -1,0 +1,35 @@
+# Secrets / local env
+.env
+.env.*
+!.env.EXAMPLE
+
+# Runtime state
+logs/
+sessions/
+memories/
+pairing/
+mcp-tokens/
+cache/
+sandboxes/
+audio_cache/
+image_cache/
+
+# Databases / local state
+*.db
+*.db-shm
+*.db-wal
+*.lock
+*.pid
+*.jsonl
+.skills_prompt_snapshot.json
+models_dev_cache.json
+channel_directory.json
+gateway_state.json
+auth.json
+
+# Local environments / build products
+.venv/
+venv/
+__pycache__/
+*.pyc
+.DS_Store
